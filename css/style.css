@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arimo", sans-serif;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+nav{
+    background-color: #fef8ff;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+nav .menu{
+    text-align: right;
+}
+nav .menu ul li{
+    display: inline-block;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+     padding: 45px 0; 
+    text-align: right;
+    padding-left: 51px;
+    font-size: 20px;
+    
+}
+nav ul li a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #a2a1a2;
+}
+nav ul li a:hover{
+    color: #39c5f2;
+}
+
+nav  li .btn{
+    font-size: 20px;
+    background-color: #39c5f2;
+    padding: 25px 21px;
+    color: white;
+}
+nav li:hover .btn{
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 25px 21px;
+    color: black;
+    background-color: white;
+}
+nav ul li .submenu{
+    position: absolute;
+    padding: 0;
+    display: block;
+    top: 200px;
+    background-color: #39c5f2;
+    opacity: 0;
+    visibility: hidden;
+}
+nav ul li:hover .submenu{
+    color: #39c5f2;
+    opacity: 1;
+    visibility: visible;
+    transition: 0.5s;
+    top: 70px;
+}
+nav ul li  .submenu li a{
+    color: white;
+    display: block;
+    padding: 10px 13px;
+    text-align: center;
+}
+nav ul li  .submenu li{
+    display: block;
+}
+#start{
+    background-color: #fef8ff;
+    padding-bottom: 200px;
+}
+#start .first h1{
+      font-size: 58px;
+      font-weight: 800;
+      font-family: "Abril Fatface", serif;
+      padding: 19px 8px;
+}
+#start .second img{
+   justify-content: left;
+   
+}
+#about{
+    padding: 133px 0;
+    text-align: center;
+}
+#about h1{
+    font-size: 45px;
+    font-weight: 800;
+    font-family: "Abril Fatface", serif;
+    padding: 35px;
+}
+#about p{
+    padding: 20px 0;
+}
+#about img{
+    padding-bottom: 20px;
+}
+#card .card1st{
+    background-color: #f5f5f5;
+    padding: 54px 30px;
+    margin: 10px 20px;
+    align-items: center;
+    width: 20%;
+}
+#card .card1st:hover{
+    background-color: #39c5f2;
+    padding: 74px 50px;
+    margin: 15px 25px;
+    color: white;
+    transition: 0.5s;
+    border-radius: 0px;
+box-shadow:  38px 38px 76px #5a5a5a,
+             -38px -38px 76px #ffffff;
+}
+#card .card2nd{
+    background-color: #f5f5f5;
+    padding: 54px 30px;
+    margin: 10px 20px;
+    width: 20%;
+}
+#card .card2nd:hover{
+    background-color: #39c5f2;
+    padding: 74px 50px;
+    margin: 15px 25px;
+    color: white;
+    transition: 0.5s;
+    border-radius: 0px;
+    box-shadow:  38px 38px 76px #5a5a5a,
+                 -38px -38px 76px #ffffff;
+}
+
+#card .card3rd{
+    background-color: #f5f5f5;
+    padding: 54px 30px;
+    margin: 10px 20px;
+    width: 20%;
+}
+#card .card3rd:hover{
+    background-color: #39c5f2;
+    padding: 74px 50px;
+    margin: 15px 25px;
+    color: white;
+    transition: 0.5s;
+    border-radius: 0px;
+    box-shadow:  38px 38px 76px #5a5a5a,
+                 -38px -38px 76px #ffffff;
+}
+
+#card .card4th{
+    background-color: #f5f5f5;
+    padding: 54px 30px;
+    margin: 10px 20px;
+    width: 20%;
+}
+#card .card4th:hover{
+    background-color: #39c5f2;
+    padding: 74px 50px;
+    margin: 15px 25px;
+    color: white;
+    transition: 0.5s;
+    border-radius: 0px;
+    box-shadow:  38px 38px 76px #5a5a5a,
+                 -38px -38px 76px #ffffff;
+}
+#card .card5th{
+    background-color: #f5f5f5;
+    padding: 54px 30px;
+    margin: 10px 20px;
+    width: 20%;
+}
+#card .card5th:hover{
+    background-color: #39c5f2;
+    padding: 74px 50px;
+    margin: 15px 25px;
+    color: white;
+    transition: 0.5s;
+    border-radius: 0px;
+    box-shadow:  38px 38px 76px #5a5a5a,
+                 -38px -38px 76px #ffffff;
+}
+#card .card6th{
+    background-color: #f5f5f5;
+    padding: 54px 30px;
+    margin: 10px 20px;
+    width: 20%;
+}
+#card .card6th:hover{
+    background-color: #39c5f2;
+    padding: 74px 50px;
+    margin: 15px 25px;
+    color: white;
+    transition: 0.5s;
+    border-radius: 0px;
+    box-shadow:  38px 38px 76px #5a5a5a,
+                 -38px -38px 76px #ffffff;
+}
+#card .card7th{
+    background-color: #f5f5f5;
+    padding: 54px 30px;
+    margin: 10px 25px;
+    width: 20%;
+}
+#card .card7th:hover{
+    background-color: #39c5f2;
+    padding: 74px 50px;
+    margin: 15px 25px;
+    color: white;
+    transition: 0.5s;
+    border-radius: 0px;
+    box-shadow:  38px 38px 76px #5a5a5a,
+                 -38px -38px 76px #ffffff;
+}
+#card .card8th{
+    background-color: #f5f5f5;
+    padding: 54px 30px;
+    margin: 10px 20px;
+    width: 20%;
+
+}
+#card .card8th:hover{
+    background-color: #39c5f2;
+    padding: 74px 50px;
+    margin: 15px 25px;
+    color: white;
+    transition: 0.5s;
+    border-radius: 0px;
+    box-shadow:  38px 38px 76px #5a5a5a,
+                 -38px -38px 76px #ffffff;
+}
+#card .card9th{
+    padding: 54px 30px;
+     margin: 12px 25px;
+    width: 28%;
+}
+#card .card9th img{
+    padding-bottom: 20px;
+}
+#card .card9th img:hover{
+    background-color: #39c5f2;
+    padding: 10px;
+}
+#card .card10th{
+    padding: 54px 30px;
+    margin: 10px 25px;
+    width: 28%;
+}
+#card .card10th img{
+    padding-bottom: 20px;
+}
+#card .card10th img:hover{
+    background-color: #39c5f2;
+    padding: 10px;
+}
+#card .card11th{
+    padding: 60px 30px;
+    margin: 10px 25px;
+    width: 28%; 
+}
+#card .card11th img{
+    padding-bottom:20px ;
+}
+#card .card11th img:hover{
+    background-color: #39c5f2;
+    padding: 10px;
+}
+#card .card12th{
+    padding: 54px 30px;
+    margin: 10px 20px;
+    width: 28%;
+}
+#card .card12th img{
+    padding-bottom: 20px;
+}
+#card .card13th{
+    padding: 54px 30px;
+    margin: 10px 20px;
+    width: 28%;
+}
+#card .card13th img{
+    padding-bottom: 20px;
+}
+#card .card14th{
+    padding: 54px 30px;
+    margin: 10px 20px;
+    width: 28%;
+}
+#card .card14th img{
+    padding-bottom: 20px;
+}
+#Companies .heading{
+    border-right: #5a5a5a;
+}
+#companies .first h1{
+    font-size: 48px;
+    font-weight: 800;
+    font-family: "Abril Fatface", serif;
+    padding: 19px 8px;
+    
+}
+#companies .second h1{
+    font-size: 48px;
+    font-weight: 800;
+    font-family: "Abril Fatface", serif;
+    padding: 19px 8px;
+    padding-left: 50px;
+   
+}
+#companies .three h1{
+    font-size: 48px;
+    font-weight: 800;
+    font-family: "Abril Fatface", serif;
+    padding: 19px 8px;
+    
+}
+#companies .four h1{
+    font-size: 48px;
+    font-weight: 800;
+    font-family: "Abril Fatface", serif;
+    padding: 19px 8px;
+    padding-left: 50px;
+    
+}
+#last .first{
+    padding-right: 180px;
+    width: 50%;
+}
+#last .second{
+    padding-left: 180px;
+    width: 50%;
+}
